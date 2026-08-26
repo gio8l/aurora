@@ -1,5 +1,7 @@
-hell yeah boy site revamp v3 is here 🙌
+aurora (mc server) site here soon
 
-rip gio8l.lol
+need 2 buy a domain 4 it but its ok
 
-https://gio8l.online
+adding files for the site here until i can get the domain
+
+-# rip gio8l.lol
