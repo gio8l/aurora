@@ -1,6 +1,6 @@
+```css
 @import "tailwindcss";
 
-/* Make entire document black behind everything */
 html {
   background-color: #000000;
 }
@@ -13,8 +13,8 @@ body {
     135deg,
     #000000 0%,
     #000000 55%,
-    #091944 75%,
-    #01113b 100%
+    #17113d 75%,
+    #24104f 100%
   );
 
   background-attachment: fixed;
@@ -24,3 +24,4 @@ body {
   color: white;
   overflow-x: hidden;
 }
+```

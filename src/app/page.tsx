@@ -1,87 +1,35 @@
+```tsx
 export default function Home() {
   return (
-    <main className="min-h-screen flex items-center justify-center px-8 relative">
+    <main className="min-h-screen flex items-center justify-center px-8">
       <div className="w-full max-w-6xl flex justify-between items-center">
-
-        {/* LEFT SIDE */}
-        <div className="space-y-4 -mt-55"> {/* moved up */}
+        {/* Left side */}
+        <div className="space-y-4">
           <h1 className="text-7xl font-bold text-gray-100">
-            gio!
+            aurora
           </h1>
 
-          <p className="text-gray-400 text-lg">
-            (prcttyworld)
+          <p className="text-gray-300 text-lg">
+            edit description later
           </p>
-
-          <p className="text-gray-300 whitespace-nowrap text-lg">
-            im like sushi, im on a roll
-          </p>
-
-          <a
-            href="/exp"
-            className="underline text-gray-400 hover:text-gray-300 text-2xl transition mt-75 inline-block"
-          >
-            experiences
-          </a>
         </div>
 
-        {/* RIGHT SIDE */}
-        <div className="flex flex-col items-center space-y-8 scale-110"> {/* bigger */}
-          <h2 className="text-gray-200 text-2xl">
-            socials
-          </h2>
+        {/* Server information */}
+        <div className="text-gray-200 text-lg">
+          <div className="space-y-6">
+            <div>
+              <p>java: mc.example.com</p>
+            </div>
 
-          <div className="flex gap-5 flex-wrap justify-center max-w-md">
-            <a
-              href="https://discord.gg/N89Djy3PTA"
-              className="px-8 py-3 rounded-2xl bg-[#0b1a35] text-gray-200 hover:bg-[#12244a] transition text-lg"
-            >
-              aurora air
-            </a>
-            <a
-              href="https://discord.gg/PRMYACwh7a"
-              className="px-8 py-3 rounded-2xl bg-[#0b1a35] text-gray-200 hover:bg-[#12244a] transition text-lg"
-            >
-              discord
-            </a>
-
-            <a
-              href="https://instagram.com/gio8l_"
-              className="px-8 py-3 rounded-2xl bg-[#0b1a35] text-gray-200 hover:bg-[#12244a] transition text-lg"
-            >
-              instagram
-            </a>
-
-            <a
-              href="https://www.roblox.com/users/12216555/profile"
-              className="px-8 py-3 rounded-2xl bg-[#0b1a35] text-gray-200 hover:bg-[#12244a] transition text-lg"
-            >
-              roblox
-            </a>
-
-            <a
-              href="https://tiktok.com/@gio8l"
-              className="px-8 py-3 rounded-2xl bg-[#0b1a35] text-gray-200 hover:bg-[#12244a] transition text-lg"
-            >
-              tiktok
-            </a>
-
-            <a
-              href="https://youtube.com/@gio8l.online"
-              className="px-8 py-3 rounded-2xl bg-[#0b1a35] text-gray-200 hover:bg-[#12244a] transition text-lg"
-            >
-              youtube
-            </a>
+            <div>
+              <p>bedrock:</p>
+              <p>ip - mc.example.com</p>
+              <p>port - XXXXX</p>
+            </div>
           </div>
         </div>
-
-      </div>
-
-      {/* FOOTER */}
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-center text-sm text-gray-500">
-        <p>for business inquiries: gio@gio8l.online</p>
-        <p>rip gio8l.lol</p>
       </div>
     </main>
   );
 }
+```
